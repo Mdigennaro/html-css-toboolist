@@ -10,8 +10,54 @@ body{
   vertical-align: middle;
 }
 
+body{
+  background-color: #f6f8f9;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
 #name{
   font-size: 25px;
   font-family: Arial, sans-serif;
   vertical-align: middle;
 }
+
+.box{
+  width: 75%;
+  height: 700px;
+  margin: 60px auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.button{
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+.style{
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+}
+
+#button1{
+  background-color: #47adf1;
+  color: white;
+  border-color: #47adf1;
+  border: hidden;
+  
+}
+
+#button2{
+  background-color: white;
+  color: lightgrey;
+  border-color: lightgrey;
+  border: 2px solid;
+}
+
+
