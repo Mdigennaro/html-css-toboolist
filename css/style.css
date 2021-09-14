@@ -2,16 +2,13 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f6f8f9;
 }
 
 #logo{
   width: 4%;
   margin: 10px;
   vertical-align: middle;
-}
-
-body{
-  background-color: #f6f8f9;
 }
 
 .container{
@@ -28,7 +25,7 @@ body{
 
 .box{
   width: 75%;
-  height: 700px;
+  height: 800px;
   margin: 60px auto;
   border-radius: 10px;
   background-color: white;
@@ -60,4 +57,84 @@ body{
   border: 2px solid;
 }
 
+#linea{
+  border: solid;
+  border-color: #f6f8f9;
+}
 
+.section{
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  padding: 40px;  
+}
+
+.descrition{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.check{
+  color: green;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+
+.cross{
+  color: red;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.editorial{
+  font-size: 12px;
+  background-color: #47adf1;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding:5px;
+}
+
+.q1-goals{
+  font-size: 12px;
+  background-color: #9c72e4;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding: 5px;
+}
+
+.recruiting{
+  font-size: 12px;
+  background-color: #64c0a9;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding: 5px;
+}
+
+.mobile{
+  font-size: 12px;
+  background-color: #f29e33;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding: 5px;
+}
+
+.website{
+  font-size: 12px;
+  background-color: #d863a1;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding: 5px;
+}
+
+.sales{
+  font-size: 12px;
+  background-color: #b0c926;
+  color: white;
+  border-radius: 10%;
+  border: hidden;
+  padding: 5px;
+}
